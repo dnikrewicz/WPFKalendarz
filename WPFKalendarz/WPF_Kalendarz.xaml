@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPFKalendarz.WPF_Kalendarz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKalendarz"
+        mc:Ignorable="d"
+        Title="WPF_Kalendarz" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="gridKalendarz" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,0,182" RenderTransformOrigin="0.496,0.483" SelectionChanged="gridKalendarz_SelectionChanged"/>
+        <Label Content="Monday:" HorizontalAlignment="Left" Margin="21,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtMonday" HorizontalAlignment="Left" Margin="71,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Label Content="Tuesday:" HorizontalAlignment="Left" Margin="21,286,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtTuesday" HorizontalAlignment="Left" Margin="71,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Label Content="Wednesday:" HorizontalAlignment="Left" Margin="22,315,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtWednesday" HorizontalAlignment="Left" Margin="71,319,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Label Content="Thursday:" HorizontalAlignment="Left" Margin="23,344,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtThursday" HorizontalAlignment="Left" Margin="70,348,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Label Content="Friday:" HorizontalAlignment="Left" Margin="212,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtFriday" HorizontalAlignment="Left" Margin="256,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Label Content="Saturday:" HorizontalAlignment="Left" Margin="208,286,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtSaturday" HorizontalAlignment="Left" Margin="256,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Label Content="Sunday:" HorizontalAlignment="Left" Margin="211,315,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtSunday" HorizontalAlignment="Left" Margin="256,319,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="212,349,0,0" VerticalAlignment="Top" FontFamily="Freestyle Script" Width="32" Click="btnAdd_Click"/>
+        <Button x:Name="btnLoad" Content="Load" HorizontalAlignment="Left" Margin="266,350,0,0" VerticalAlignment="Top" FontFamily="Freestyle Script" Width="50" Click="btnLoad_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="326,350,0,0" VerticalAlignment="Top" FontFamily="Freestyle Script" Width="50" Click="btnUpdate_Click"/>
+        <Button x:Name="btnDelate" Content="Delate" HorizontalAlignment="Left" Margin="391,352,0,0" VerticalAlignment="Top" FontFamily="Freestyle Script" Width="50" Click="btnDelate_Click"/>
+        <Label Content="City:" HorizontalAlignment="Left" Margin="499,269,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Margin="530,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="668,272,0,0" VerticalAlignment="Top" FontFamily="Freestyle Script" Width="32" Click="btnSearch_Click"/>
+        <Label Content="Temperature:" HorizontalAlignment="Left" Margin="499,312,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,0.371" FontFamily="Freestyle Script"/>
+        <TextBox x:Name="txtTemp" HorizontalAlignment="Left" Margin="556,316,0,0" TextWrapping="Wrap" Text="N/A" VerticalAlignment="Top" Width="120" FontFamily="Freestyle Script"/>
+
+    </Grid>
+</Window>
