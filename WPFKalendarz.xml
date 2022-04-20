@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WPFKalendarz</name>
+    </assembly>
+    <members>
+        <member name="T:WPFKalendarz.WPF_Kalendarz">
+            <summary>
+            Interaction logic for WPF_Kalendarz.xaml
+            </summary>
+            <summary>
+            WPF_Kalendarz
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.WPF_Kalendarz.btnAdd_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Dodanie taska do bazy danych
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.WPF_Kalendarz.btnLoad_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Wyswietla w aplikacji aktualne dane z bazy danych
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.WPF_Kalendarz.btnUpdate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Zaktualizowanie bazy danych
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.WPF_Kalendarz.btnDelate_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Usuniecie danego elementu z bazy danych
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.WPF_Kalendarz.btnSearch_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Przycisk odpowiedzialny za szukanie danej miejscowosci
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.WPF_Kalendarz.getWeather">
+            <summary>
+            Sprawdza pogode w wybranej miejscowosci jezeli zostala dobrze wpisana
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.WPF_Kalendarz.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPFKalendarz.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:WPFKalendarz.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:WPFKalendarz.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPFKalendarz.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WPFKalendarz.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WPFKalendarz.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
